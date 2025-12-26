@@ -1,7 +1,11 @@
 # Julia Lessons
+![Julia](https://img.shields.io/badge/Language-Julia-9558B2?style=for-the-badge&logo=julia)
+![Level](https://img.shields.io/badge/Level-Beginner-success?style=for-the-badge)
+![Purpose](https://img.shields.io/badge/Purpose-Education-blue?style=for-the-badge)
 
-Julia, hızlı, dinamik ve bilimsel hesaplamalar için çok güçlü bir dil. 
-Verileri analiz etmek ve matematiksel işlemler yapmak için çok kullanışlı.
+Julia, **yüksek performanslı**, **dinamik** ve özellikle  
+**bilimsel hesaplama, veri analizi ve mühendislik** alanlarında kullanılan güçlü bir programlama dilidir.
+Python kadar kolay ama C kadar hızlı olmasıdır.
 
 ### İlk Cümlemiz
 Julia'da geleneğimizi yerine getirelim:
@@ -10,6 +14,7 @@ Julia'da geleneğimizi yerine getirelim:
 println("Merhaba Dünya")
 ```
 ### Değişkenler ve Veri Tipleri
+
 Python'daki gibi türünü tanıtmadan değişkenler oluşturulabilir.
 ```
 x = 42       # Integer
@@ -50,17 +55,18 @@ println(f(40))
 ```
 
 ### Grafik - Ağırlıklı Grafik Örneği
+Julia’da ağırlıklı grafikler için ***Graphs.jl*** ve ***SimpleWeightedGraphs.jl*** paketleri kullanılır.
 ```
-using LightGraphs
+using Graphs
+using SimpleWeightedGraphs
 
-# Grafik oluşturuluyor
-g = SimpleGraph(4)
+# 4 düğümlü ağırlıklı grafik
+g = SimpleWeightedGraph(4)
 
-# Kenarlar ekleniyor
-add_edge!(g, 1, 2, 3.0)  # Kenar 1-2, ağırlık 3.0
-add_edge!(g, 2, 3, 5.0)  # Kenar 2-3, ağırlık 5.0
-add_edge!(g, 3, 4, 2.0)  # Kenar 3-4, ağırlık 2.0
-add_edge!(g, 4, 1, 4.0)  # Kenar 4-1, ağırlık 4.0
+add_edge!(g, 1, 2, 3.0)
+add_edge!(g, 2, 3, 5.0)
+add_edge!(g, 3, 4, 2.0)
+add_edge!(g, 4, 1, 4.0)
 ```
 
 <img width="399" height="264" alt="resim" src="https://github.com/user-attachments/assets/c89ed2af-b0e1-4d89-8c4a-f564109d55f7" />
