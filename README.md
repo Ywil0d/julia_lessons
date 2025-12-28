@@ -73,3 +73,8 @@ add_edge!(g, 4, 1, 4.0)
 &nbspㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
 ‎<img width="600" height="400" alt="6fd4b7057b8c22063af20d50898e06edbc421be4" src="https://github.com/user-attachments/assets/c6311959-a6ea-4510-aaf7-97caf90947d3" />
 
+
+
+
+other perf
+https://drive.google.com/drive/folders/1C6GBkzVWwjhhYbryuCV5yYY39zajsU3V?usp=sharing
